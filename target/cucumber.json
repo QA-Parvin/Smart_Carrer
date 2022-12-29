@@ -1,0 +1,159 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-29T03:29:41.207Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5066959700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "smart.usa.hookstest.Hooks.getStart()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "User can login the application wtth valid credential and purchase the specific mens jacket",
+        "description": "",
+        "id": "valid-user-can-purchase-the-men-jacket-from-ecommarce-website;user-can-login-the-application-wtth-valid-credential-and-purchase-the-specific-mens-jacket;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1221200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "smart.usa.hookstest.Hooks.getTearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3758993200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user already login the application and verify the login info in the landing page",
+            "match": {
+              "location": "smart.usa.stepdefination.Stepdefination.user_already_login_the_application_and_verify_the_login_info_in_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1114118000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should be able to Jupiter All-Weather Trainer jacket from men module",
+            "match": {
+              "location": "smart.usa.stepdefination.Stepdefination.user_should_be_able_to_jupiter_all_weather_trainer_jacket_from_men_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 908322200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user verify the jacket name on the Jupiter All-Weather Trainer list",
+            "match": {
+              "location": "smart.usa.stepdefination.Stepdefination.user_verify_the_jacket_name_on_the_jupiter_all_weather_trainer_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 792500900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should be able to select the M and Blue and 1 and click on the add to cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 49
+                }
+              ],
+              "location": "smart.usa.stepdefination.Stepdefination.user_should_be_able_to_select_the_m_and_blue_and_and_click_on_the_add_to_cart(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4625931100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user able to click on the cart and checkout",
+            "match": {
+              "location": "smart.usa.stepdefination.Stepdefination.user_able_to_click_on_the_cart_and_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9765909500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user able to enter the shopping details and click on the next",
+            "match": {
+              "location": "smart.usa.stepdefination.Stepdefination.user_able_to_enter_the_shopping_details_and_click_on_the_next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52547600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user able to verify the shippinig address and place the order",
+            "match": {
+              "location": "smart.usa.stepdefination.Stepdefination.user_able_to_verify_the_shippinig_address_and_place_the_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 223703100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should be able to verify the order number and get text on the screen \"Thank you for your purchase !\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your purchase !\"",
+                  "offset": 74
+                }
+              ],
+              "location": "smart.usa.stepdefination.Stepdefination.user_should_be_able_to_verify_the_order_number_and_get_text_on_the_screen(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Valid user can purchase the men jacket from eCommarce website",
+    "description": "Description: \"Online user can register luma eCommerce website to purchase\"\n             \"return,deliver,exchange,clearence, sale etc\"",
+    "id": "valid-user-can-purchase-the-men-jacket-from-ecommarce-website",
+    "keyword": "Feature",
+    "uri": "file:Features/shopping.feature",
+    "tags": []
+  }
+]
